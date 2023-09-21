@@ -24,7 +24,7 @@ function Hero({userInput}:any) {
                     placeholder='Search Anything'
                     className=' bg-white p-3 z-10
                     border-[1px] rounded-full px-5 w-[36%] 
-                    shadow-sm outline-red-300'/>
+                    shadow-lg outline-red-300'/>
                     <button 
                     onClick={()=>userInput(searchInput)}
                     className='bg-red-600 rounded-full
@@ -49,7 +49,7 @@ function Hero({userInput}:any) {
                       onClick={()=>userInput(item.name)}
                        className='border-[1px] 
                       w-[60px] p-4 bg-white rounded-full z-10
-                      hover:border-red-600 
+                      hover:border-red-600 shadow-lg
                       hover:scale-110 
                       cursor-pointer transition-all'>
                         <Image src={item.icon} 
