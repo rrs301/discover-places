@@ -13,7 +13,7 @@ function SideDrawer({ place, close }: any) {
       className="h-screen 
     w-screen md:w-[400px]
     bg-white
-    shadow-lg p-5 z-20 "
+    shadow-lg p-5 z-20 overflow-auto"
     >
       <button onClick={() => close()}>
         <svg
@@ -50,7 +50,7 @@ function SideDrawer({ place, close }: any) {
           width={200}
           height={80}
           className="w-full rounded-xl
-             h-[170px]  object-fill"
+             h-[170px]  object-cover"
         />
         <div className="flex gap-2 mt-3">
           <svg
